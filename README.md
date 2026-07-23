@@ -43,6 +43,7 @@ MD5: a11773bcf1fc088ec0ab8e0a349ffbcb
 SHA-256: 3ce8053e4f3d9c8ab98b3aadb2480685efb4e4980d34297b83bd5a09b1a7b122
 
 Step 2: File System Analysis & Inode Extraction (Ch01InChap01.dd)
+
 Executed Commands:
 # Analyze image file system format
 img_stat Ch01InChap01.dd
@@ -77,6 +78,7 @@ Inode 17: Regrets.doc
 Raw Cluster Data: Extracted database schema tables (MSysRelationships, MSysQueries, mmaryInfo).
 
 Step 3: Hex Stream Reconstruction & Metadata Extraction (J_ub_law.jpg)
+
 Executed Commands:
 # Convert binary stream to plain hex dump
 xxd -p J_ub_law.jpg > J_ub_law_hexdump.txt
@@ -102,6 +104,7 @@ Timestamps: Creation Date: 2013-10-08, Modify Date: 2020-08-20
 Author / Institution: Merrick School of Business / HOWARD KRUP
 
 Step 4: Automated Data Carving (120M.7z & usb_fat_carving.001)
+
 Executed Commands:
 # Decompress archive
 7z e 120M.7z

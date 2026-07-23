@@ -21,7 +21,7 @@ This laboratory report documents the process of digital forensics analysis, file
 ### Step 1: Environment Setup & Artifact Verification
 
 #### Executed Commands:
-```bash
+bash
 # Create working directory
 mkdir -p ~/CIP-B102_Lab6_Data_Carving
 cd ~/CIP-B102_Lab6_Data_Carving
